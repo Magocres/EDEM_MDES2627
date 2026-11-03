@@ -3,7 +3,7 @@
     padding-top: 40px;
 }
 
-.now__div {
+.now__item {
     margin: 20px 0px;
     padding: 30px;
     background-color: var(--background-color-section);
@@ -14,6 +14,6 @@
     display: flex;
 }
 
-.now__span-year {
+.now__year {
     color: var(--second-color-text);
 }
