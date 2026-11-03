@@ -4,7 +4,7 @@
 }
 
 .hero__subtitle {
-    color: var(--red-color);
+    color: var(--primary-color);
     margin: 0%;
     font-size: 12px;
 }
@@ -17,4 +17,17 @@
 
 .hero__description {
     margin-bottom: 30px;
+}
+
+@media (max-width: 768px){
+
+    .hero__title {
+        line-height: 1.2;
+    }
+
+    .hero {
+        padding-top: 40px;
+        margin-bottom: 40px;
+    }
+
 }
