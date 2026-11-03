@@ -11,7 +11,7 @@
 }
 
 .form__email {
-    color: var(--red-color);
+    color: var(--primary-color);
 }
 
 .form__label {
@@ -25,6 +25,7 @@
     border: 1px solid var(--border-color);
     color: var(--first-color-text);
     margin: 10px 0px;
+    resize: none;
 }
 
 .form__text {
