@@ -6,6 +6,7 @@
     background-color: var(--background-color);
     border-bottom: 1px solid var(--border-color);
     width: 100%;
+    padding: 2px;
 }
 
 .header__name {
@@ -20,4 +21,25 @@
     width: 100%;
     margin: 0;
     padding: 0;
+}
+
+@media (max-width: 768px){
+    .header {
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__nav-list {
+        display: inline-flex;
+        list-style: none;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    .header__name {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
